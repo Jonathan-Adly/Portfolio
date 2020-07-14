@@ -11,6 +11,10 @@ h1 {
   width: 50%; /* Set a small width */
   margin: auto;
 }
+#personalpic {
+  border-radius: 15%;
+  padding: 15px;
+  }
 
 .fa {
   padding: 10px;
