@@ -1,0 +1,35 @@
+#welcome-section {
+  text-align: center;
+  color: white;
+  font-size: 1.5vw;
+}
+h1 {
+  font-size: 5vw;
+}
+#imgone {
+  padding: 15px; /* Some padding */
+  width: 50%; /* Set a small width */
+  margin: auto;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  border-radius: 50%;
+  }
+.fa-medium, .fa-github, .fa-envelope{
+  color: black;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://source.unsplash.com/nMqdVApWNow/1920x1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
