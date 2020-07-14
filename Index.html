@@ -9,6 +9,7 @@
   
   <script src="https://kit.fontawesome.com/a73ef54b13.js" crossorigin="anonymous"></script>
   </head>
+
 <body>
 <nav class="navbar navbar-light bg-light shadow fixed-top">
   <div class="container">
@@ -184,10 +185,51 @@
 </div>
   </div>
   <br>
+ </section> 
+<section id= "contact"> 
+  <div class="btn-group dropright">
+  <button class="btn btn-dark btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Contact me
+  </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<form class= "dropdown-item"
+  action="https://formspree.io/xnqgovwz"
+  method="POST"
+>
+    <div class="form-group">
+            <label class="sr-only" for="fullName">
+                Full Name:
+            </label>
+            <input type="text" id="fullName" placeholder="Full Name" required="" name="name" class="form-control">
+  </div>
+  <div class= "form-group">
+            <label class="sr-only" for="email">
+                Email:
+            </label>
   
   
- 
-
-</section> 
-
+            <input type="email" id="email" placeholder="Email" required="" name="email" class="form-control">
+  </div>
+         
+  <div class= "form-group">
+  <label class="sr-only" for="message">
+                Message:
+            </label>
+            <textarea id="message" placeholder="Write your message here..." required="" name="message" class="form-control"></textarea>
+  </div>
+            <input type="submit" value="Send Message" class="btn btn-dark">
+    </div>
+        </form>
+  </div>    
+  </div>
+     </section>
+    </div>
+  <footer class= "footer">
+  <div class="container">
+  <span class= "text-muted"> By Jonathan Adly. All Rights Reserved. </span>
+</div>
+</footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
