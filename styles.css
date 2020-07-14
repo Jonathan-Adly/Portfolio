@@ -49,7 +49,7 @@ footer {
   text-align: center;
 }
 
-progress, progress[role] {
+#skill-1, #skill-2, #skill-3 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
