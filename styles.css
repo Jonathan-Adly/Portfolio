@@ -33,3 +33,12 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+
+#contact {
+  padding: 15px;
+  margin-bottom: 100px;
+  }
+footer {
+  text-align: center;
+}
