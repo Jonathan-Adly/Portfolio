@@ -83,11 +83,11 @@ footer {
 }
 
 #skill-1::-webkit-progress-value {
-  background: #ffa741;
+  background: #4ecdc4;
 }
 
 #skill-1::-moz-progress-bar {
-  background: #ffa741;
+  background: #4ecdc4;
 }
 
 #skill-2::-webkit-progress-value {
@@ -99,18 +99,9 @@ footer {
 }
 
 #skill-3::-webkit-progress-value {
-  background: #ff6b6b;
+  background: #4ecdc4;
 }
 
 #skill-3::-moz-progress-bar {
-  background: #ff6b6b;
-}
-
-// Animation Keyframes
-@-webkit-keyframes bar-fill {
-  0% { width: 0; }
-}
-
-@keyframes bar-fill {
-  0% { width: 0; }
+  background: #4ecdc4;
 }
